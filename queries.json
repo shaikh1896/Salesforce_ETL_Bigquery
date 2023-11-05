@@ -1,0 +1,14 @@
+{
+    "Contact_query": {
+        "query": "SELECT Id, IsDeleted, AccountId, Name, Description FROM Opportunity",
+        "table": "Opportunity"
+    },
+    "Opportunity_query": {
+        "query": "Select  Id, IsDeleted, MasterRecordId, AccountId,LastName, FirstName, S from Contact",
+        "table": "Contact"
+    },
+    "account_query": {
+        "query": "Select Id, IsDeleted, MasterRecordId, Name, Type,ParentId, BillingStreet, from Account",
+        "table": "Account"
+    }
+}
